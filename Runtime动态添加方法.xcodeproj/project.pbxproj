@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C345926228AA3E8007F4822 /* NSArray+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C345925228AA3E8007F4822 /* NSArray+safe.m */; };
 		8C501C6322891670001B19EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C501C6222891670001B19EA /* AppDelegate.m */; };
 		8C501C6622891670001B19EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C501C6522891670001B19EA /* ViewController.m */; };
 		8C501C6922891670001B19EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C501C6722891670001B19EA /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		8C501C6E22891671001B19EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C501C6C22891671001B19EA /* LaunchScreen.storyboard */; };
 		8C501C7122891671001B19EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C501C7022891671001B19EA /* main.m */; };
 		8C501C7B22891671001B19EA /* Runtime______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C501C7A22891671001B19EA /* Runtime______UITests.m */; };
+		8C501C8722894181001B19EA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C501C8622894181001B19EA /* Person.m */; };
+		8C501C8A22894B6F001B19EA /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C501C8922894B6F001B19EA /* Boss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C34591B228964ED007F4822 /* NSNull+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+safe.h"; sourceTree = "<group>"; };
+		8C34591C228964ED007F4822 /* NSNull+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+safe.m"; sourceTree = "<group>"; };
+		8C34591E2289829C007F4822 /* NSMutableDictionary+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+safe.h"; sourceTree = "<group>"; };
+		8C34591F2289829C007F4822 /* NSMutableDictionary+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+safe.m"; sourceTree = "<group>"; };
+		8C345921228A578B007F4822 /* NSMutableArray+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+safe.h"; sourceTree = "<group>"; };
+		8C345922228A578B007F4822 /* NSMutableArray+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+safe.m"; sourceTree = "<group>"; };
+		8C345924228AA3E8007F4822 /* NSArray+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+safe.h"; sourceTree = "<group>"; };
+		8C345925228AA3E8007F4822 /* NSArray+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safe.m"; sourceTree = "<group>"; };
 		8C501C5E22891670001B19EA /* Runtime动态添加方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtime动态添加方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C501C6122891670001B19EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C501C6222891670001B19EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +51,10 @@
 		8C501C7622891671001B19EA /* Runtime动态添加方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runtime动态添加方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C501C7A22891671001B19EA /* Runtime______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Runtime______UITests.m"; sourceTree = "<group>"; };
 		8C501C7C22891671001B19EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C501C8522894181001B19EA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8C501C8622894181001B19EA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8C501C8822894B6F001B19EA /* Boss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		8C501C8922894B6F001B19EA /* Boss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,18 @@
 				8C501C6222891670001B19EA /* AppDelegate.m */,
 				8C501C6422891670001B19EA /* ViewController.h */,
 				8C501C6522891670001B19EA /* ViewController.m */,
+				8C501C8522894181001B19EA /* Person.h */,
+				8C501C8622894181001B19EA /* Person.m */,
+				8C501C8822894B6F001B19EA /* Boss.h */,
+				8C501C8922894B6F001B19EA /* Boss.m */,
+				8C34591B228964ED007F4822 /* NSNull+safe.h */,
+				8C34591C228964ED007F4822 /* NSNull+safe.m */,
+				8C34591E2289829C007F4822 /* NSMutableDictionary+safe.h */,
+				8C34591F2289829C007F4822 /* NSMutableDictionary+safe.m */,
+				8C345921228A578B007F4822 /* NSMutableArray+safe.h */,
+				8C345922228A578B007F4822 /* NSMutableArray+safe.m */,
+				8C345924228AA3E8007F4822 /* NSArray+safe.h */,
+				8C345925228AA3E8007F4822 /* NSArray+safe.m */,
 				8C501C6722891670001B19EA /* Main.storyboard */,
 				8C501C6A22891671001B19EA /* Assets.xcassets */,
 				8C501C6C22891671001B19EA /* LaunchScreen.storyboard */,
@@ -203,9 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C501C8A22894B6F001B19EA /* Boss.m in Sources */,
 				8C501C6622891670001B19EA /* ViewController.m in Sources */,
 				8C501C7122891671001B19EA /* main.m in Sources */,
+				8C501C8722894181001B19EA /* Person.m in Sources */,
 				8C501C6322891670001B19EA /* AppDelegate.m in Sources */,
+				8C345926228AA3E8007F4822 /* NSArray+safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33TS6KJYJJ;
 				INFOPLIST_FILE = "Runtime动态添加方法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33TS6KJYJJ;
 				INFOPLIST_FILE = "Runtime动态添加方法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
